@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <CheckBox
+        android:id="@+id/checkboxFeestructure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fee Structure" />
+
+    <CheckBox
+        android:id="@+id/checkboxJoiningelsewhere"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Joining Elsewhere" />
+
+    <CheckBox
+        android:id="@+id/checkboxNotlooking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Not Looking for Any Program" />
+
+    <CheckBox
+        android:id="@+id/checkboxCalldisconnect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call Disconnect" />
+
+    <Button
+        android:id="@+id/btnDone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Done"
+        android:backgroundTint="@color/theme_red"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menuCold"
+        android:title="Cold" />
+
+    <item
+        android:id="@+id/menuHot"
+        android:title="Hot" />
+
+    <item
+        android:id="@+id/menuInterested"
+        android:title="Interested" />
+
+    <item
+        android:id="@+id/menuNotInterested"
+        android:title="Not Interested" />
+
+    <item
+        android:id="@+id/menuNoresponse"
+        android:title="No Response" />
+
+    <item
+        android:id="@+id/menuCompleted"
+        android:title="Completed" />
+
+</menu>

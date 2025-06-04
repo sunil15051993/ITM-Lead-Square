@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <CheckBox
+        android:id="@+id/checkboxMtech"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="M.tech" />
+
+    <CheckBox
+        android:id="@+id/checkboxBtech"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="B.tech" />
+
+    <CheckBox
+        android:id="@+id/checkboxDiploma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Diploma" />
+
+    <CheckBox
+        android:id="@+id/checkboxMca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MCA" />
+
+    <CheckBox
+        android:id="@+id/checkboxBca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BCA" />
+
+    <Button
+        android:id="@+id/btnDone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Done"
+        android:backgroundTint="@color/theme_red"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>

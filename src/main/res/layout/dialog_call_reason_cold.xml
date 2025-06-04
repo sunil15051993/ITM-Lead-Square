@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <CheckBox
+        android:id="@+id/checkboxCallmelater"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call me Later" />
+
+    <CheckBox
+        android:id="@+id/checkboxNeedtodiscuss"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Need to Discuss" />
+
+    <CheckBox
+        android:id="@+id/checkboxWaitingresult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Waiting for Results" />
+
+    <CheckBox
+        android:id="@+id/checkboxNottherighttime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Not the Right Time" />
+
+    <Button
+        android:id="@+id/btnDone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Done"
+        android:backgroundTint="@color/theme_red"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>

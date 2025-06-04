@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <CheckBox
+        android:id="@+id/checkboxNumberinvalid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Number Invalid" />
+
+    <CheckBox
+        android:id="@+id/checkboxWrongnumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wrong Number" />
+
+    <CheckBox
+        android:id="@+id/checkboxTemporaryout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Temporary Out of Service" />
+
+    <CheckBox
+        android:id="@+id/checkboxIncomingnot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Incoming not Available" />
+
+    <Button
+        android:id="@+id/btnDone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Done"
+        android:backgroundTint="@color/theme_red"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>

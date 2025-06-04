@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <CheckBox
+        android:id="@+id/checkboxHadConversation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Had a Conversation" />
+
+    <CheckBox
+        android:id="@+id/checkboxUncontactable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Uncontactable" />
+
+    <CheckBox
+        android:id="@+id/checkboxInvalid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Invalid" />
+
+    <Button
+        android:id="@+id/btnDone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Done"
+        android:backgroundTint="@color/theme_red"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>

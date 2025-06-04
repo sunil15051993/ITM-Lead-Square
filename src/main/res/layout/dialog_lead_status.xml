@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <CheckBox
+        android:id="@+id/checkboxNew"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New" />
+
+    <CheckBox
+        android:id="@+id/checkboxCold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cold" />
+
+    <CheckBox
+        android:id="@+id/checkboxHot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hot" />
+
+    <CheckBox
+        android:id="@+id/checkboxInter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Interested" />
+
+    <CheckBox
+        android:id="@+id/checkboxNotInter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Not Interested" />
+
+    <CheckBox
+        android:id="@+id/checkboxNoResp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Not Response" />
+
+    <CheckBox
+        android:id="@+id/checkboxCompleted"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Completed" />
+
+    <Button
+        android:id="@+id/btnDone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Done"
+        android:backgroundTint="@color/theme_red"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <CheckBox
+        android:id="@+id/checkboxCold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cold" />
+
+    <CheckBox
+        android:id="@+id/checkboxInterested"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Interested" />
+
+    <CheckBox
+        android:id="@+id/checkboxNotInterested"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Not Interested" />
+
+    <Button
+        android:id="@+id/btnDone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Done"
+        android:backgroundTint="@color/theme_red"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>
