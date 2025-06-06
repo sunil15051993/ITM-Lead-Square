@@ -807,7 +807,7 @@ class ViewLeadActivity : AppCompatActivity() {
 
                         binding.textName.text = sName
                         binding.textMobile.text = sMob
-                        selectedCourse = courseName
+                        selectedCourse = courseId as String
                         binding.textCourse.text = selectedCourse
                         binding.textCity.text = city
                         binding.textEmail.text = sEmail
