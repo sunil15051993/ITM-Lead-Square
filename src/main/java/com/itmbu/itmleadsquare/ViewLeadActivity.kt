@@ -871,11 +871,13 @@ class ViewLeadActivity : AppCompatActivity() {
 
                 TelephonyManager.CALL_STATE_IDLE -> {
                     if (isCalling) {
-                        // Call ended
-                        showCallLog()
                         isCalling = false
+                        Handler(Looper.getMainLooper()).postDelayed({
+                            showCallLog()
+                        }, 2000) // Delay 2 seconds
                     }
                 }
+
             }
         }
     }
