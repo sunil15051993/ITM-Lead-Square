@@ -8,8 +8,9 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 
-    <uses-feature android:name="android.hardware.telephony" android:required="false" />
-
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
 
     <application
         android:allowBackup="true"
@@ -31,10 +32,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LeadDisplayActivity"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".ViewLeadActivity"
-            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".LeadDisplayActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ViewLeadActivity"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>
